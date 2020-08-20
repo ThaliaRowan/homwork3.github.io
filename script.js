@@ -18,13 +18,6 @@ function writePassword() {
 
 }
 
-//myArr.push(lower);
- // myArr.push(upper);
-  //myArr.push(specialChar);
-  //myArr.push(num);
-  //
-
-
 function generatePassword(){
   
 var count = prompt("How long do you want your password. Must be at least 6 but not more than 128");
@@ -35,7 +28,6 @@ var number = confirm("Do you want to add numbers?");
   let result = '';
   let myArr = [];
  
-
   if(lowerCase === true){
     myArr.push(lower)
   }; 
@@ -58,10 +50,24 @@ var number = confirm("Do you want to add numbers?");
     var arrIdx = Math.floor(Math.random()* newArr.length);
     var arrRand = newArr[arrIdx]
     result += arrRand;
-     
 
+  }  
+  
+  if( newArr.length === 0){
+    alert('You have not chosen any characters to include');
+    return '';
   }
+
+  if(count < 8){
+     alert("Your length must have at least 8 characters")
+     return '';
+  } else if(count > 128){
+    alert("Your length must not excede 128 characters")
+    return '';
+  } else {
     return result;
+  }
+  
 }
 
 
