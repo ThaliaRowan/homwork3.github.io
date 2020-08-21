@@ -20,9 +20,9 @@ function writePassword() {
 
 function generatePassword(){
   
-var count = prompt("How long do you want your password. Must be at least 6 but not more than 128");
-var lowerCase = confirm("Do you want Lower case characters?");
-var upperCase = confirm("Do you want Upper case characters?");
+var count = prompt("How long do you want your password? Must be at least 6 but not more than 128");
+var lowerCase = confirm("Do you want LowerCase characters?");
+var upperCase = confirm("Do you want UpperCase characters?");
 var special = confirm("Do you want special characters?");
 var number = confirm("Do you want to add numbers?");
   let result = '';
