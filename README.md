@@ -8,4 +8,10 @@ For this assignment, I was tasked to write javascript so that when the Generate 
 
 When the number is inputed, it goes on to ask what characters would they would or would not like to include, example includes
 
-![](pg2.png)
+![](pg2.png);
+
+This goes on until the last confirm, then password is generated
+
+![](final.png)
+
+Link to the https://thaliarowan.github.io/homwork3.github.io/
