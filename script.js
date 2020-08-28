@@ -81,11 +81,7 @@ function generatePassword() {
     result += arrRand;
   }
 
-  if(typeof count !== Number){
-    alert(" Your imput was not a number, Please input a number");
-    return "";
-  }
-
+ 
   if (newArr.length === 0) {
     alert("You have not chosen any characters to include");
     return "";
