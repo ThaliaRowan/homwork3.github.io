@@ -48,12 +48,12 @@ function writePassword() {
 
 function generatePassword() {
   var count = prompt(
-    "How long do you want your password? Must be at least 6 but not more than 128"
+    "How long do you want your password? Must be at least 8 charcters in length but not more than 128 charcters."
   );
-  var lowerCase = confirm("Do you want LowerCase characters?");
-  var upperCase = confirm("Do you want UpperCase characters?");
-  var special = confirm("Do you want special characters?");
-  var number = confirm("Do you want to add numbers?");
+  var lowerCase = confirm("Do you want LowerCase characters? Click 'Ok' for yes or 'cancel' for no. ");
+  var upperCase = confirm("Do you want UpperCase characters? Click 'Ok' for yes or 'cancel' for no.");
+  var special = confirm("Do you want special characters? Click 'Ok' for yes or 'cancel' for no.");
+  var number = confirm("Do you want to add numbers? Click 'Ok' for yes or 'cancel' for no.");
   let result = "";
   let myArr = [];
 
