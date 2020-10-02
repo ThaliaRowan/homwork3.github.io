@@ -14,4 +14,4 @@ This goes on until the last confirm, then password is generated
 
 ![](./assets/final.png)
 
-Link to page https://thaliarowan.github.io/homwork3.github.io/
+Link to page: https://thaliarowan.github.io/password_Generator.github.io/
